@@ -1,3 +1,9 @@
+## BIOS
+- Update to latest version
+- Consider performance boost options
+- Enabling memory profile
+- Manual CPU clock / voltage config
+
 ## System Update
 ```bash
 # Update installed packages with refreshed metadata
