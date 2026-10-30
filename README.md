@@ -112,5 +112,9 @@ sudo dnf install mangohud btop
 
 # sysbench is system benchmark
 # stress-ng is stress testing
+# sensors for monitoring chips temperature
 sudo dnf install sysbench stress-ng sensors
+
+# check boot time
+systemd-analyze
 ```
