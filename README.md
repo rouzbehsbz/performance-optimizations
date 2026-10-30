@@ -85,10 +85,10 @@ tuned-adm active
 
 ## GRUB
 ```bash
-# Disable split-lock detection.
+# Disable split-lock detection
 # Enable AMD P-State CPU frequency scaling
-# Optimize PCIe bus performance.
-# Favor PCIe performance over power savings.
+# Optimize PCIe bus performance
+# Favor PCIe performance over power savings
 # Disable USB autosuspend
 # Disable the kernel soft-lockup watchdog
 # Disable the NMI watchdog
@@ -98,11 +98,11 @@ sudo grubby --update-kernel=ALL --args="split_lock_detect=off amd_pstate=active 
 
 ## Storage
 ```bash
-# Check whether periodic SSD TRIM is enabled.
+# Check whether periodic SSD TRIM is enabled
 systemctl status fstrim.timer
 
-# TRIM all supported mounted filesystems
-sudo fstrim -v
+# Turn on weekly TRIM
+sudo systemctl enable --now fstrim.timer
 ```
 
 ## Monitoring & Benchmark
