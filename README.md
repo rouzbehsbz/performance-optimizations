@@ -1,8 +1,14 @@
+## Hardware
+- Best support for AMD CPU and GPU
+
 ## BIOS
 - Update to latest version
 - Consider performance boost options
 - Enabling memory profile
 - Manual CPU clock / voltage config
+
+## Distributions
+- Fedora: Best for developers, workstations and modern hardware. newer linux kernel, firmwares and drivers
 
 ## System Update
 ```bash
