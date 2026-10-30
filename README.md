@@ -112,5 +112,5 @@ sudo dnf install mangohud btop
 
 # sysbench is system benchmark
 # stress-ng is stress testing
-sudo dnf install sysbench stress-ng
+sudo dnf install sysbench stress-ng sensors
 ```
